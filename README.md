@@ -1,5 +1,5 @@
 # Object Detection with YOLOv5 and Faster R-CNN
-
+[![Hugging Face Space](https://img.shields.io/badge/🤗%20Hugging%20Face-Space-yellow)](https://huggingface.co/spaces/Aumkeshchy2003/Object_Detection)
 ## Overview
 This repository contains an object detection model utilizing YOLOv5 and Faster R-CNN. The model is implemented in a Jupyter Notebook and designed to detect objects in images captured through a webcam or uploaded manually.
 
