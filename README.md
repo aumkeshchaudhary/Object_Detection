@@ -1,12 +1,10 @@
-# Object Detection with YOLOv5 and Faster R-CNN
+# Object Detection with YOLOv5
 [![Hugging Face Space](https://img.shields.io/badge/🤗%20Hugging%20Face-Space-yellow)](https://huggingface.co/spaces/Aumkeshchy2003/Object_Detection)
 ## Overview
-This repository contains an object detection model utilizing YOLOv5 and Faster R-CNN. The model is implemented in a Jupyter Notebook and designed to detect objects in images captured through a webcam or uploaded manually.
+This repository contains an object detection model utilizing YOLOv5. The model is implemented in a Jupyter Notebook and designed to detect objects in videos and images captured through a webcam or uploaded manually.
 
 ## Features
-- Uses **YOLOv5** for real-time object detection.
-- Implements **Faster R-CNN** from Torchvision for robust detection.
-- Captures images from the webcam in Google Colab.
+- Uses **YOLOv5** for object detection.
 - Applies **non-maximum suppression (NMS)** for better detection results.
 - Displays bounding boxes with labels and confidence scores.
 
@@ -83,11 +81,9 @@ pip install -r requirements.txt
 ## Results
 - The model successfully detects objects and labels them with confidence scores.
 - Bounding boxes are drawn around detected objects.
-- The combination of YOLOv5 and Faster R-CNN provides accurate and efficient detection.
 
 ## Acknowledgments
 - **YOLOv5** by Ultralytics: [GitHub Repo](https://github.com/ultralytics/yolov5)
-- **Torchvision Faster R-CNN** for object detection.
 - **Google Colab** for easy cloud execution.
 
 ## Contributing
